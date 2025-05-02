@@ -4,10 +4,28 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Vite Webview Sandbox</title>
   </head>
-  <body>
-    <div id="app"></div>
+  <body style="padding-top: 3rem;">
+    <!--
+    <div id="blob-download">
+      <button id="dyn-download">Dynamic LocalStorage Download</button>
+    </div>
+    -->
+
+    <!--
+    <div id="tts">
+      <input type="text" name="tts-text" id="tts-text" placeholder="Text to speech">
+      <button id="tts-submit">Speek</button>
+    </div>
+    -->
+
+    <div id="pedometer">
+      <button id="pedometer-start">Start</button>
+      <button id="pedometer-stop">Stop</button>
+      <h1 id="step-counter">0</h1>
+    </div>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
