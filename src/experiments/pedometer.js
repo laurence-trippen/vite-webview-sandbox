@@ -26,6 +26,8 @@ export default function() {
     },
     onSecureLocationReceived(location) {
       console.log("location:", location);
+
+      alert(location);
     },
   }
 }
