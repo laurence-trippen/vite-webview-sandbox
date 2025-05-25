@@ -1,19 +1,19 @@
 export default function() {
-  console.log(window.AndroidFitness);
+  console.log(window.WebViewGoldFitness);
 
   const startButton = document.getElementById("pedometer-start");
   startButton.addEventListener("click", (e) => {
-    window.AndroidFitness?.startPedometer();
+    window.WebViewGoldFitness?.startPedometer();
   });
 
   const stopButton = document.getElementById("pedometer-stop");
   stopButton.addEventListener("click", (e) => {
-    window.AndroidFitness?.stopPedometer();
+    window.WebViewGoldFitness?.stopPedometer();
   });
 
   const stepCounter = document.getElementById("step-counter");
 
-  window.AndroidFitnessEvents = {
+  window.WebViewGoldFitnessEvents = {
     onStepUpdated(steps) {
       console.log(steps);
 
