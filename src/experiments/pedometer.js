@@ -27,7 +27,7 @@ export default function() {
     onSecureLocationReceived(location) {
       console.log("location:", location);
 
-      alert(location);
+      alert(JSON.stringify(location, null, 2));
     },
   }
 }
