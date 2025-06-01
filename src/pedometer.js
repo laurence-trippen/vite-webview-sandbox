@@ -31,4 +31,3 @@ window.WebViewGoldFitnessEvents = {
     alert(JSON.stringify(location, null, 2));
   },
 }
-
