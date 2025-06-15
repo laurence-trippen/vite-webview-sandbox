@@ -15,6 +15,7 @@ export default defineConfig({
         main: path.resolve(__dirname, "index.html"),
         tts: path.resolve(__dirname, "tts.html"),
         blob: path.resolve(__dirname, "blob.html"),
+        otp: path.resolve(__dirname, "otp.html"),
       },
     },
   },
