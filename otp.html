@@ -13,7 +13,10 @@
 
 <body>
   <form action="/verify-otp" method="POST">
+    <label>OTP</label>
     <input type="text" inputmode="numeric" autocomplete="one-time-code" pattern="\d{6}" required>
+
+    <button type="submit">Submit</button>
   </form>
 
   <script type="module" src="/src/otp.js"></script>
