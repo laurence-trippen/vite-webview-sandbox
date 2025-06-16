@@ -1,7 +1,15 @@
 console.log("WebViewGold OTP", window.webviewgoldOTP);
 
+// Start native retriever for next 5 minutes.
 window.webviewgoldOTP?.startSmsRetriever();
-
+window.webviewgoldOTPEvents = {
+  onOTPReceived(otpMessage) {
+    console.log("OTP Message:", otpMessage);
+  },
+  onOTPTimeout() {
+    console.log("OTP TImeout");
+  },
+};
 
 function retrieveSms() {
   console.log("WebOTP:", window.OTPCredential);
