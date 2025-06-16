@@ -1,3 +1,8 @@
+console.log("WebViewGold OTP", window.webviewgoldOTP);
+
+window.webviewgoldOTP?.startSmsRetriever();
+
+
 function retrieveSms() {
   console.log("WebOTP:", window.OTPCredential);
 
