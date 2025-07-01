@@ -16,6 +16,7 @@ export default defineConfig({
         tts: path.resolve(__dirname, "tts.html"),
         blob: path.resolve(__dirname, "blob.html"),
         otp: path.resolve(__dirname, "otp.html"),
+        qr: path.resolve(__dirname, "qr.html"),
       },
     },
   },
